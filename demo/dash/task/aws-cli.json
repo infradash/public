@@ -1,0 +1,8 @@
+{
+    "info": "/{{.Domain}}/task/{{.Name}}/{{.Id}}",
+    "success": "/{{.Domain}}/task/{{.Name}}/{{.Id}}/success",
+    "error": "/{{.Domain}}/task/{{.Name}}/{{.Id}}/error",
+    "status": "mqtt://iot.eclipse.org:1883/{{.Domain}}/task/{{.Name}}/{{.Id}}",
+    "stdout_topic": "mqtt://iot.eclipse.org:1883/{{.Domain}}/task/{{.Name}}/{{.Id}}/stdout",
+    "stderr_topic": "mqtt://iot.eclipse.org:1883/{{.Domain}}/task/{{.Name}}/{{.Id}}/stderr"
+}
